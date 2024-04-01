@@ -19,7 +19,11 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         home:Scaffold(
           appBar: AppBar(),
-          body: Column(),
+          body: Column(
+            children: [
+              Image.asset("name")
+            ],
+          ),
         ));
 
     }
