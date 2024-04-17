@@ -3,6 +3,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:pro1/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,14 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
-        home:Scaffold(
-          appBar: AppBar(),
-          body: Column(
-            children: [
-              Image.asset("name")
-            ],
-          ),
-        ));
-
+        home: Veiw());
+  }
     }
-}
+
