@@ -73,6 +73,10 @@ flutter:
   assets:
     - assets/mohamed.jpeg
     - assets/logo.png
+    - assets/faxe.png
+    - assets/google.png
+    - assets/twiter.png
+    - assets/googl.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
